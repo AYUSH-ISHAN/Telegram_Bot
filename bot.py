@@ -1,7 +1,7 @@
 import telebot
 import yfinance as yf
 
-bot = telebot.TeleBot("1959329104:AAE_4c7FkjZhGgDSFyhogwVX2yGzr4CEmoY")
+bot = telebot.TeleBot("PUT your Bot API here")
 
 @bot.message_handler(commands=['start', 'help'])
 def greet(message):
